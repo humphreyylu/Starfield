@@ -6,8 +6,10 @@ void setup(){
     parts[0] = new OddballParticle();
     parts[1] = new OddballParticle();
     parts[2] = new OddballParticle();
+    parts[3] = new OddballParticle();
+    parts[4] = new OddballParticle();
 
-  for(int i = 3; i<parts.length; i++){
+  for(int i = 5; i<parts.length; i++){
     parts[i] = new Particle();
   }
 }
